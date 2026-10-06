@@ -1,0 +1,104 @@
+/* Paleta de colores modernos, oscuros y estilo arcade premium */
+.root {
+    -fx-background-color: #0b0f19;
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.main-container {
+    -fx-padding: 24px;
+    -fx-spacing: 24px;
+    -fx-alignment: center;
+}
+
+.board-container {
+    -fx-background-color: #111726;
+    -fx-border-color: #1f293d;
+    -fx-border-width: 3px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 15, 0, 0, 4);
+    -fx-padding: 4px;
+}
+
+.side-panel {
+    -fx-pref-width: 230px;
+    -fx-spacing: 16px;
+}
+
+.title-label {
+    -fx-text-fill: linear-gradient(to right, #00e5ff, #d500f9);
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-letter-spacing: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 229, 255, 0.4), 10, 0, 0, 0);
+    -fx-alignment: center;
+}
+
+.card {
+    -fx-background-color: #131b2e;
+    -fx-border-color: #202c4b;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 14px;
+    -fx-spacing: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 8, 0, 0, 2);
+}
+
+.card-title {
+    -fx-text-fill: #8b9bb4;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 1px;
+}
+
+.stat-value {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Consolas", "Courier New", monospace;
+}
+
+.preview-container {
+    -fx-alignment: center;
+    -fx-min-height: 110px;
+}
+
+.action-btn {
+    -fx-background-radius: 6px;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 16px;
+    -fx-cursor: hand;
+    -fx-focus-traversable: false;
+}
+
+.btn-pause {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-pause:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.btn-restart {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-restart:hover {
+    -fx-background-color: #b91c1c;
+}
+
+.controls-hint {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 11px;
+    -fx-line-spacing: 3px;
+}
+
+.controls-key {
+    -fx-text-fill: #38bdf8;
+    -fx-font-weight: bold;
+}
